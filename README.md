@@ -103,12 +103,6 @@ docker push registry.heroku.com/aqueous-wildwood-97407/web
 After we push to the repo, we then can release the image:
 
 ```bash
-heroku container:release -a aqueous-wildwood-97407 web
-```
-
-for some reason they would ask to run
-
-```bash
 git push heroku main
 ```
 
