@@ -100,11 +100,24 @@ docker push registry.heroku.com/aqueous-wildwood-97407/web
 
 ***WARNING: the name of the container must match with the app created in heroku***
 
-After we push to the repo, we then can release the image:
+We must create heroku.yml file (already created in this repo) to refer to the DockerFile for deployment. we then run:
 
+***can skip the first two lines if there is an error***
 ```bash
+git add .
+git commit -m "adding heroku.yml"
 git push heroku main
 ```
+
+Once the compiled and build is completed, you would see it deploy under your heroku application webpage.
+
+Then left click the Container icon and word found on the left side of the star to go to the settings and find the link to app like `https://<YOUR_HEROKU_APP_NAME>.herokuapp.com/`.
+
+Open your browser and go to `https://<YOUR_HEROKU_APP_NAME>.herokuapp.com/docs` to get into FastAPI page and test the API. For this tutorial, enter "MSFT" as the value for the key "ticket" to see the testing output.
+
+## Congratulation
+
+Congrats!!! we have build a minimal deployment of ML model on heroku for stock prediction.
 
 ## End note:
 
