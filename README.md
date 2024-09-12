@@ -123,5 +123,8 @@ Congrats!!! we have build a minimal deployment of ML model on heroku for stock p
 
 Feel free to ask me any questions and provide suggestion for this guide.
 
+## Check out the streamlit app!!
+https://stock-predict-demo.streamlit.app/
+
 ## Contact me:
 vathanakuddam@gmail.com
