@@ -2,3 +2,4 @@ __pycache__
 env
 .svn
 aqueous-wildwood-97407
+.streamlit
